@@ -1,8 +1,11 @@
+/* Blanket changes for entire document */
+
 * {
     margin: 0px;
     padding: 0px;
     font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
+
 
 /* Basic styling */
 
@@ -13,7 +16,6 @@
     padding: 30px;
     padding-left: 10%;
     padding-right: 10%;
-
 }
 
 .randominfo, .call-to-action {
@@ -62,4 +64,9 @@
     list-style-type: none;
 }
 
+.hero {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
 
