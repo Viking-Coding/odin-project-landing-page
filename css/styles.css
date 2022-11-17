@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0px;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+/* Basic styling */
+
+.header, .hero, .footer {
+    background-color: #1f2937;
+    font-size: 18px;
+    color: #e5e7eb;
+    padding: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+
+.footer {
+    text-align: center;
+}
+
+.randominfo, .call-to-action {
+    background-color: white;
+    padding: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+ul, li {
+    text-decoration: none;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #f9f1f8;
+}
+
+
+/* Flexbox changes */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav > * {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
