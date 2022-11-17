@@ -37,7 +37,7 @@
 }
 
 .quote-text {
-    max-width: 500px;
+    max-width: 700px;
     margin: auto;
 }
 
@@ -88,6 +88,8 @@ button {
 
 h2 {
     text-align: center;
+    font-size: 30px;
+    font-weight: 700;
 }
 
 .info-image {
@@ -103,12 +105,26 @@ h2 {
     text-align: center;
 }
 
+.hero-title {
+    padding-bottom: 10px;
+}
+
+.hero-text {
+    max-width: 600px;
+}
+
+.cta-text > p {
+    padding: 3px;
+}
+
 /* Flexbox changes */
 
-.header {
+.header-content {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    max-width: 900px;
+    margin: auto;
 }
 
 .hero {
